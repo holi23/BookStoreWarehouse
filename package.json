@@ -1,0 +1,24 @@
+{
+  "name": "BookStoreWarehouse",
+  "version": "1.0.0",
+  "description": "Система учета товаров на складе книжного магазина",
+  "main": "index.js",
+  "scripts": {
+    "build": "dotnet build",
+    "clean": "dotnet clean",
+    "restore": "dotnet restore",
+    "api": "cd src/BookStoreWarehouse.API && dotnet run",
+    "website": "cd src/BookStoreWarehouse.Website && dotnet run",
+    "desktop": "cd src/BookStoreWarehouse.DesktopApp && dotnet run",
+    "db-migrate": "cd src/BookStoreWarehouse.API && dotnet ef database update",
+    "test": "dotnet test"
+  },
+  "keywords": [
+    "bookstore",
+    "warehouse",
+    "inventory",
+    "management"
+  ],
+  "author": "holi23",
+  "license": "MIT"
+}
